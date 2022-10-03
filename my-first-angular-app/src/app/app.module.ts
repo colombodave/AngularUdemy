@@ -1,15 +1,30 @@
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
+\r
+mport { NgModule } from '@angular/core';
+\r
+mport { FormsModule } from '@angular/forms';
+\r
+mport { BrowserModule } from '@angular/platform-browser';
+\r
 
-import { AppComponent } from './app.component';
-import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
+\r
+mport { AppComponent } from './app.component';
+\r
+mport { ServerComponent } from './server/server.component';
+\r
+mport { ServersComponent } from './servers/servers.component';
+\r
 
-@NgModule({
-  declarations: [AppComponent, ServerComponent, ServersComponent],
-  imports: [BrowserModule, FormsModule],
-  providers: [],
-  bootstrap: [AppComponent],
-})
-export class AppModule {}
+\r
+NgModule({
+\r
+ declarations: [AppComponent, ServerComponent, ServersComponent],
+\r
+ imports: [BrowserModule, FormsModule],
+\r
+ providers: [],
+\r
+ bootstrap: [AppComponent],
+\r
+)
+\r
+xport class AppModule {}

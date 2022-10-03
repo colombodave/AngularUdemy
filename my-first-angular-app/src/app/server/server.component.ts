@@ -1,14 +1,28 @@
-import { Component } from '@angular/core';
+\r
+mport { Component } from '@angular/core';
+\r
 
-@Component({
-  selector: 'app-server',
-  templateUrl: './server.component.html',
-})
-export class ServerComponent {
-  serverId: number = 10;
-  serverStatus: string = 'online';
+\r
+Component({
+\r
+ selector: 'app-server',
+\r
+ templateUrl: './server.component.html',
+\r
+)
+\r
+xport class ServerComponent {
+\r
+ serverId: number = 10;
+\r
+ serverStatus: string = 'online';
+\r
 
-  getServerStatus() {
-    return this.serverStatus;
-  }
-}
+\r
+ getServerStatus() {
+\r
+   return this.serverStatus;
+\r
+ }
+\r
+

@@ -1,14 +1,28 @@
-import { Component } from '@angular/core';
+\r
+mport { Component } from '@angular/core';
+\r
 
-@Component({
-  selector: 'app-warning-alert',
-  template: `<h3>Warning</h3>`,
-  styles: [
-    `
-      h3 {
-        color: red;
-      }
-    `,
-  ],
-})
-export class WarningAlertComponent {}
+\r
+Component({
+\r
+ selector: 'app-warning-alert',
+\r
+ template: `<h3>Warning</h3>`,
+\r
+ styles: [
+\r
+   `
+\r
+     h3 {
+\r
+       color: red;
+\r
+     }
+\r
+   `,
+\r
+ ],
+\r
+)
+\r
+xport class WarningAlertComponent {}

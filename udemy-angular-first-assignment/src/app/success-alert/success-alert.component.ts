@@ -1,14 +1,28 @@
-import { Component } from '@angular/core';
+\r
+mport { Component } from '@angular/core';
+\r
 
-@Component({
-  selector: 'app-success-alert',
-  template: `<h3>Success</h3>`,
-  styles: [
-    `
-      h3 {
-        color: green;
-      }
-    `,
-  ],
-})
-export class SuccessAlertComponent {}
+\r
+Component({
+\r
+ selector: 'app-success-alert',
+\r
+ template: `<h3>Success</h3>`,
+\r
+ styles: [
+\r
+   `
+\r
+     h3 {
+\r
+       color: green;
+\r
+     }
+\r
+   `,
+\r
+ ],
+\r
+)
+\r
+xport class SuccessAlertComponent {}
