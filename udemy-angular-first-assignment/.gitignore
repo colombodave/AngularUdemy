@@ -1,83 +1,42 @@
-\r
- See http://help.github.com/ignore-files/ for more about ignoring files.
-\r
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-\r
- Compiled output
-\r
-dist
-\r
-tmp
-\r
-out-tsc
-\r
-bazel-out
-\r
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
-\r
- Node
-\r
-node_modules
-\r
-pm-debug.log
-\r
-arn-error.log
-\r
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
 
-\r
- IDEs and editors
-\r
-idea/
-\r
-project
-\r
-classpath
-\r
-c9/
-\r
-.launch
-\r
-settings/
-\r
-.sublime-workspace
-\r
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-\r
- Visual Studio Code
-\r
-vscode/*
-\r
-.vscode/settings.json
-\r
-.vscode/tasks.json
-\r
-.vscode/launch.json
-\r
-.vscode/extensions.json
-\r
-history/*
-\r
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
-\r
- Miscellaneous
-\r
-.angular/cache
-\r
-sass-cache/
-\r
-connect.lock
-\r
-coverage
-\r
-libpeerconnection.log
-\r
-estem.log
-\r
-typings
-\r
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
-\r
- System files
-\r
-DS_Store
+# System files
+.DS_Store
 Thumbs.db
